@@ -2,7 +2,7 @@
 
 
 ###########################
-#### CRUD DE USUARIOS #######
+#### CRUD DE USUARIOS #####
 ###########################
 
 function listarUsuarios(){

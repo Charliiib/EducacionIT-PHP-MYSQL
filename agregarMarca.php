@@ -1,7 +1,9 @@
 <?php
     require 'config/config.php';
+
     require 'funciones/autenticar.php';
         autenticar();
+        
     require 'funciones/conexion.php';
     require 'funciones/marcas.php';
         $chequeo = agregarMarca();

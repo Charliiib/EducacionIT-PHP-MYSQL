@@ -1,7 +1,9 @@
 <?php
     require 'config/config.php';
+
     require 'funciones/autenticar.php';
     autenticar();
+    
 	include 'includes/header.html';  
 	include 'includes/nav.php';  
 ?>

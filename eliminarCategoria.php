@@ -1,7 +1,7 @@
 <?php  
     require 'config/config.php';
     require 'funciones/conexion.php';
-            require 'funciones/autenticar.php';
+    require 'funciones/autenticar.php';
     autenticar();
     require 'funciones/categorias.php';
         $chequeo = eliminarCategoria();

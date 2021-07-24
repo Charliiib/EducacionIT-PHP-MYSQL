@@ -1,6 +1,8 @@
 <?php  
     require 'config/config.php';
     require 'funciones/conexion.php';
+    require 'funciones/autenticar.php';
+    autenticar();
     require 'funciones/marcas.php';
     $cantidad = verProductoPorMarca();
 	include 'includes/header.html';
